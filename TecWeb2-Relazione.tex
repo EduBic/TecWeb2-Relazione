@@ -1,0 +1,96 @@
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[italian,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[xindy]{imakeidx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\usepackage[toc,page]{appendix}
+\usepackage{verbatimbox}
+\usepackage{tabularx}
+\usepackage{booktabs}
+% \usepackage{wrapfig} % immagini avvolte dal testo
+
+\usepackage[hidelinks, colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref}	
+\usepackage{bookmark}
+\usepackage{caption}
+\usepackage{subfig}
+
+\captionsetup{tableposition=top, figureposition=bottom, font=small}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{epigraph}
+
+
+\makeindex
+
+
+\includeonly{
+			sections/AnalisiPreliminare,%
+			sections/AssiDiComunicazione,%
+			sections/Contenuto,%
+			sections/Pubblicita,%
+			sections/Ricerca,%
+			sections/Mobile,%
+			sections/Conclusioni%
+			}
+		
+\begin{document}
+
+\title{Analisi di usabilità}
+\author{Eduard Bicego}
+
+\maketitle
+
+%\include{sections/Abstract}
+
+
+\begin{table} [h]
+		\centering
+		\begin{tabular}{c|c}
+			%\toprule
+			Sito analizzato & \href{http://www.cinisio.com/}{www.cinisio.com} \\
+			\midrule
+			Periodo analisi & Maggio/Giugno 2016 \\
+			%\bottomrule
+		\end{tabular}
+	
+\end{table}
+
+
+\begin{abstract}
+
+	Il presente documento si propone di discutere e mettere in evidenza le problematiche dell'usabilità rilevate durante l'analisi del sito web \href{http://www.cinisio.com/}{www.cinisio.com}. L'analisi vera e propria è preceduta da un fase preliminare in cui si descrive la struttura del sito e il contenuto che esso presenta. Successivamente attraverso diverse sezioni vengono trattati i diversi aspetti che compongono l'usabilità di un sito web. In queste si riportano i problemi individuati, le scelte di design del sito che impattano positivamente o negativamente e infine una sottosezione conclusiva che tenta di dare oggettivamente delle valutazioni sull'aspetto appena analizzato. 
+	Nonostante questo documento tenti di essere il più oggettivo possibile e basarsi su modalità di usabilità provate e testate preciso che il contenuto è del tutto opinabile. Solo un'analisi più approfondita che comprende la raccolta di dati reali di centinaia (se non migliaia) di utenti può forse provare quali soluzioni di design siano le più apprezzate dagli utenti del sito.
+
+\end{abstract}
+	
+
+
+\newpage
+	\tableofcontents
+	\listoffigures
+
+\hypersetup{linkcolor=blue, urlcolor=blue}
+
+\include{sections/AnalisiPreliminare}
+
+\include{sections/AssiDiComunicazione}
+
+\include{sections/Contenuto}
+
+\include{sections/Pubblicita}
+
+\include{sections/Ricerca}
+
+\include{sections/Mobile}
+
+\include{sections/Conclusioni}
+
+\end{document}	
