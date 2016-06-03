@@ -1,0 +1,141 @@
+
+
+	Homepage
+		- Utente Età: 23, Da considerasi utente medio digitale sufficiente
+	
+		Who? Team kart
+		What? info gare di corsa, informazioni su gare (tempo lungo)
+		When (risposta subito)
+		Why? Per punti di vista su gare (interesse nullo), il carattere tecnico nel sito condondo l'utente Elena
+		Where? Racing (positiva), navigazione  a tag che non si comprende per esempio Design affianco alle news che categorizza le newss
+		How? Tutto a posto Difficile spostarsi tra le sezioni, l'utente è spesso confuso e disorienteato alla richeista di reperire info sulla kart endurance 2016 l'utente dopo un sacco di tempo non è ancora riuscito a trovare la newss
+		
+		La sezione Gare è ambigua
+		Cerca nel sito troppo in basso
+		La sezione Home rimane nascosta (l'utente ha usato il pulsante back ripetutamente !!!!)
+		La distribuzione a griglia disorienta l'utente le notizie a sinistra non sono visualizzate e spesso vengono ignorate
+		l'immagine iniziale invece di attrarre l'attenzione sull'ultima news fa sì che non sia nemmeno notata.
+		È stato chiesto alla cavia di tentare ad iscriversi al prossimo evento organizzato tuttavia dopo svariati tentativi e buchi nell'acqua l'utente ha abbandonato l'idea con notevole frustrazione.
+		Le news tra loro non sono linkate anche se sono correlate
+		
+		Blonde effect sui punti della lista
+		
+		
+		- Utente Età: 13, Da considerarsi com nativo digitale
+		
+		Who? footer spiega 
+		What? gare go kart, tuttavia l'informazione si ferma qui, l'utente non capisce che le gare sono amatroiali come pure il team
+		When? L'ordine delle new favorisce la comprensione delle ultime new
+		
+		Non è un blog. Come lo definiresti: partecipare alle gare di go kart
+		
+		Why? PArtecipare a gare per tutti (così sembra)
+		
+		Where? Racing (positivo) 
+		
+		Navigazione positiva, l'utente riesce a navigare per le parti del sito
+		
+		Alla domanda cerca l'evento Ac kart endurance l'utente è riuscito a trovare subito l'informazione e anche la form di iscrizione
+		
+		
+		
+
+
+
+	Sito data 17/05/2016
+
+	STRUTTURA SITO
+		home
+		-> news (Layout a griglia, new bluer title, manca la ricerca visibile)
+			-> oneNews
+		-> racing (team) (bene il testo, utilizzo di spazi e liste puntate, risponde bene all'asse Where)
+		-> racing/calendario (gare)
+		-> contattami (contatti) (form page, )
+	
+	OSSERVAZIONI
+		homepage con tanto scroll
+		Footer molto grande, inutile 
+			partners relegati al freddo sotterraneo delle pagine
+			immagini senza link (OUCH!), potrebbero favorire il ranking
+			
+		Scelta del path attraverso i TAG (categorie) 
+			e path sul titolo scheda.
+			
+		Il menu del sito potrebbe benissimo avere un font faciliterebbe l'azione del click dell'utente evitando la noia di sbagliare, una possibile miglioria potrebbe essere quella di ricavare uno spazio che comprende tutta l'altezza dell'header per i link del menu
+		
+		Cookie policy (nascosta e in secondo piano, in basso a destra, pulsante non sufficientemente grande)
+		
+		elenco punteggiato con un icona che non è il massimo (sembra qualcosa da cliccare ma non lo è, effetto blonde)
+		
+		RICERCA assente, per certi versi vista la dimensione del sito va bene ma se si pensa alla mole di new archiviate una funzionalità di ricerca è necessaria. (NUM PAGE = 12*8 + 6 = 104 > 100) la funzionalità di ricerca è difficile da scovare e una volta trovata si capisce il perché, semplicemente non è implementata. L'utente è mandato in una pagina che contiene indicazioni contraddittorie. Ma poi il miracolo, un search box (20 caratteri) appare, nascosto, quasi fosse un forziere. PAradossalmente la ricerca sembra funzionare anche bene per l'archivio news.
+		Ricerche per sezioni in laterale ma nella sezione NEWS non ci sono.
+		
+		Il numero di pagine come mostra il risultato del tool XML sitemap online, è quasi 300 per cui una funzionalità di ricerca è necessaria
+		
+		FONT
+		
+		BANNERS Il sito sembra dare importanza alla pubblicità tanto che è messa completamente in secondo piano, Nella homepage l'unico banner è situato in fondo alla pagina prima del footer. Nelle new invece il banner è posizionato in primo piano a fianco del testo tuttavia ciò non genera nessun fastidio per l'utente dato che può essere benissimo ignorato. In alcune pagine invece il banner è presente nella parte laterale di destra in basso, inutile dire che è del tutto inutile.
+		
+		IMMAGINI le immagini staccano il ritmo del testo, un bene o un male? L'utente resterà e continuerà la lettura o smetterà di leggere? Solo un confronto dei risultati di entrambe le tecniche può dirlo. In tutto il sito le immagini sono quasi sempre cliccabili, da un lato è un bene
+		
+		Link non hanno lo stile comunemente utilizzato e soprattutto non tengono uno stile uniforme tra loro, molte volte sono neri altre rossi. Confusionari dato che l'icona spesso confonde, in un attimo dice link in un altro è una lista
+		
+		SCANNING
+		
+		
+	STRUTTURA RELAZIONE
+		ABSTRACT
+			Struttura relazione
+			tabella informazioni
+			
+		ANALISI PRELIMINARE
+			descrizione del sito: Il sito: www.cinisio.com
+			struttura sito
+				home
+				news -> archivio
+	
+		ASSI PRINCIPALI
+			homepage
+			pagina articolo
+			
+		% NAVIGABILITA'
+			timer -> per ogni asse
+			breadcrump -> asse Where
+			cookie law -> Homepage
+		
+		CONTENUTO
+			testo 
+			immagini		
+			scanning (simil eyetracking)
+			link e blonde effect
+			cookie policy
+			il footer
+			
+		PUBBLICITA'
+			posizione pagina
+			comunicazione
+			
+		RICERCA
+			sezione NEWS (numero di pagine)
+			search box
+			
+		MOBILE
+			Taglia schermo
+			Responsiveness - Molto bene l'homepage e una pagina new, entrambe superano il test responsiveness proposto da Google https://www.google.com/webmasters/tools/mobile-friendly/?hl=it
+			Tempi - Molto male invece per i tempi di download e il peso della pagine, la valutazione dello strumento di Google per misurarne le performance valuta negativamente con 37 punti su 100 (strumento pagespeed insight di Google https://developers.google.com/speed/pagespeed/insights/)
+				I tempi di caricamento della homepage usufruendo di una connessione wi-fi con uno smartphone di fasia bassa misurano più di 10 secondi, ulteriori test con telefoni più prestanti e sempre con connessione wi-fi misurano quasi 10 secondi.
+				
+			La misurazione da Desktop con gli strumenti offerti da Firefox mostra che la Homepage pesa più di 3 MB! 
+				I risultati sono negativi perché il sito è composto da troppi script javascript e da troppe immagini non compresse e nella maggior parte dei casi di troppo. Alcune possibili rimedi immediati potrebbero essere:
+					-linkare a server online per il download di librerie javascript piuttosto che appesantire il proprio server.
+					-comprimere le immagini se non ridurrne la presenza.
+			
+		CONCLUSIONE
+				Aspetto	& note & voto
+			Navigabilità:
+			Contenuto:
+			Pubblicità:
+			Ricerca:
+			Responsiveness:
+			Voto totale: 
+		
